@@ -1,17 +1,39 @@
 {
+<<<<<<< HEAD
+  "name": "aboutus",
+  "version": "1.0.0",
+  "description": "assignment1",
+  "main": "aboutus.html",
+=======
   "name": "confusion",
   "version": "1.0.0",
   "description": "This is a website for Ristorante Con Fusion",
   "main": "index.html",
+>>>>>>> 086beb9a9ca785889aec8a87199db30a57b4d5e5
   "scripts": {
     "start": "npm run lite",
     "test": "echo \"Error: no test specified\" && exit 1",
     "lite": "lite-server"
   },
+<<<<<<< HEAD
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/SharaLove007/conFusion.git"
+  },
+  "author": "Shara Love",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/SharaLove007/conFusion/issues"
+  },
+  "homepage": "https://github.com/SharaLove007/conFusion#readme",
+  "devDependencies": {
+    "lite-server": "^2.3.0"
+=======
   "author": "",
   "license": "ISC",
   "devDependencies": {
     "lite-server": "^2.2.2"
+>>>>>>> 086beb9a9ca785889aec8a87199db30a57b4d5e5
   },
   "dependencies": {
     "bootstrap": "^4.0.0-alpha.6"
