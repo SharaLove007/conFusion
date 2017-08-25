@@ -105,26 +105,26 @@
       </div>
 
         <div class="row row-content">
-          <div class="col d-flex justify-content-center">
-            <div class="card"></div>
-            <div class="col-12 col-sm-8">
+
+            <div class="col-12 col-sm-8 offset-sm-2">
+            <div class="card">
             <h3 class="card-header bg-warning text-white"
              id="reservation">Reserve a Table</h3>
              <div class="card-block">
               <form>
                 <div class="form-group row">
-                  <label for="guests" class="col-sm-2 col-frm-label">Number of Guests</label>
-                  <div class="col-sm-10">
+                  <label for="guests" class="col-sm-2 col-form-label">Number of Guests</label>
+                  <div class="col col-sm-10">
                     <div class="radio">
-                    <label class="radio-inline"><input type="radio" name="guests">1</label>
-                    <label class="radio-inline"><input type="radio" name="guests">2</label>
-                    <label class="radio-inline"><input type="radio" name="guests">3</label>
-                    <label class="radio-inline"><input type="radio" name="guests">4</label>
-                    <label class="radio-inline"><input type="radio" name="guests">5</label>
-                    <label class="radio-inline"><input type="radio" name="guests">6</label>
+                    <label class="radio-inline"><input type="radio" id="guests" name="guests">1</label>
+                    <label class="radio-inline"><input type="radio" id="guests" name="guests">2</label>
+                    <label class="radio-inline"><input type="radio" id="guests" name="guests">3</label>
+                    <label class="radio-inline"><input type="radio" id="guests" name="guests">4</label>
+                    <label class="radio-inline"><input type="radio" id="guests" name="guests">5</label>
+                    <label class="radio-inline"><input type="radio" id="guests" name="guests">6</label>
                    </div>
                   </div>
-                  <label for="datetime" class="col-sm-2 col-frm-label">Date and Time</label>
+                  <label for="datetime" class="col-sm-2 col-form-label">Date and Time</label>
                   <div class="col-12 col-sm-4">
                     <div class="input-group">
                       <div class="input-group-addon">
@@ -145,16 +145,17 @@
                   </div>
                 </div>
                 <div class="form-group row">
-                  <div class="offset-sm-2 col-sm-10">
+                  <div class="offset-sm-2 col-sm-8">
+                    <div class="input-group-btn col-sm-4">
                     <button type="submit" class="btn btn-primary">Reserve</button>
+                   </div>
                   </div>
                 </div>
               </form>
             </div>
             </div>
           </div>
-        </div>
-      </div>
+
 
 
     <footer class="footer">
